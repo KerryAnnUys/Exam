@@ -1,0 +1,31 @@
+-- Products:
+-- Prod Code;  Name;  Price;  Brand
+1   iPhone 13       699     Apple
+2   Galaxy S22      599     Samsung
+3   Pixel 8         799     Google
+
+-- Customers:
+-- Fake names from https://www.fakenamegenerator.com/
+-- Customer ID;  First Name;  Last Name;  Tel Num;  Email
+1   Patrick     Francis     0837640455      PatrickFrancis@rhyta.com
+2   Anthony     Warren      0859020590      AnthonyWarren@armyspy.com
+3   Mason       Brady       0845481289      MasonBrady@teleworm.us
+
+-- Orders:
+-- Order Num;  Status;  Customer ID
+1   PENDING     1
+2   COMPLETE    2
+3   PENDING     1
+4   CANCELLED   3
+5   COMPLETE    3
+6   PENDING     2
+
+-- Ordered Products:
+-- Order Num;  Product Code;  Quantity
+1   1   1
+2   2   1
+2   3   1
+3   2   2
+4   1   5
+5   3   1
+6   1   2
